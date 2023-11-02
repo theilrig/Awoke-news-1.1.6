@@ -1,7 +1,9 @@
+
 body{
     background-color: rgb(188, 14, 14);
     /* background-image: url(awoke_news_cropped.png) */
-}
+ }
+/*This is the aspect that styles full content so it has the background and splits in half */
 #fullContent{
     height: 100vh;
     background-size: cover;
@@ -20,7 +22,7 @@ body{
     flex: 50%;
 
 }
-
+/* The thumbnail class is for our main images that are also a tags  */
 .thumbnails{
     height: 300px;
     width: 400px;
@@ -37,7 +39,7 @@ body{
     color: white;
     font-family: 'Courier New';
 }
-
+/* The logo is an ID made specifically for the awoke sign */
 #logo{
     height: 70px;
     width: 300px;
@@ -51,7 +53,7 @@ body{
   font-family:Georgia;
   font-size: 35px;
 }
-
+/* This is a hover conditional to change our a tags  */
 .textA:hover{
   background-color: #ffffff;
   color:rgb(0, 0, 0); 
@@ -59,7 +61,7 @@ body{
   font-size: 35px;
   border-radius: 8px;
 }
-
+/* A class for all screen text */
 .whiteText{
   color:#ffffff;
   font-size: 35px;
